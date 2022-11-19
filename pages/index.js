@@ -12,6 +12,9 @@ export default function Home() {
         <link rel="icon" href="/codeswearcircle.png" />
       </Head>
       <Navbar />
+      <div>
+        <Image src="/home.jpg" height={200} width={2599} alt= "" priority={false}/>
+      </div>
       <Footer />
     </div>
   )
